@@ -1,0 +1,10 @@
+{
+  "cloud": "aws",
+  "identity_ready": false,
+  "resource_boundaries": false,
+  "availability": {"replicas": 1, "spread": false},
+  "recovery": {"backup": false, "restore_tested": false},
+  "telemetry": {"metrics": true, "logs": false, "traces": false, "slo": false},
+  "delivery": {"progressive": false, "rollback": false},
+  "cost": {"owner": false, "ttl": false}
+}
